@@ -1,0 +1,6 @@
+<svg width="200" height="100" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="100" rx="8" fill="#ffffff" />
+  <path d="M40 50C40 40 50 35 60 35C70 35 80 40 80 50C80 60 70 65 60 65C50 65 40 60 40 50Z" stroke="#00b4d8" stroke-width="4" />
+  <path d="M50 50C50 45 55 42 60 42C65 42 70 45 70 50C70 55 65 58 60 58C55 58 50 55 50 50Z" fill="#00b4d8" />
+  <text x="90" y="55" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#666666">jogo responsável</text>
+</svg>

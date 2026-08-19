@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050811; /* Dark navy from screenshot */
+  --foreground: #ffffff;
+  --card-bg: #0c1222;
+  --primary: #00b4ff; /* Electric blue from brand button */
+  --accent: #ff8c00;  /* Orange for 'Escolha do Editor' */
+  --gold: #ffd700;
+  --silver: #c0c0c0;
+  --bronze: #cd7f32;
+  --muted: #94a3b8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card-bg: var(--card-bg);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-gold: var(--gold);
+  --color-silver: var(--silver);
+  --color-bronze: var(--bronze);
+  --color-muted: var(--muted);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .gold-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gold via-[#fff1a8] to-accent;
+  }
+
+  .casino-card-bg {
+    @apply bg-card-bg border border-[#00b4ff]/30 rounded-2xl relative transition-all duration-300 shadow-[0_0_20px_rgba(0,180,255,0.05)];
+  }
+
+  .felt-texture {
+    background-image: radial-gradient(circle at 2px 2px, rgba(255, 255, 255, 0.02) 1px, transparent 0);
+    background-size: 24px 24px;
+  }
+
+  .casino-glow {
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.05);
+  }
+
+  .gold-shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gold-shimmer::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+      45deg,
+      transparent,
+      rgba(255, 215, 0, 0.2),
+      transparent
+    );
+    transform: rotate(45deg);
+    animation: shimmer 3s infinite;
+  }
+
+  @keyframes shimmer {
+    0% { transform: translateX(-100%) rotate(45deg); }
+    100% { transform: translateX(100%) rotate(45deg); }
+  }
+}
