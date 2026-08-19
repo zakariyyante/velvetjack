@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark Background Square (rounded) -->
+  <rect width="64" height="64" rx="12" fill="#050811"/>
+  
+  <!-- Outer Gold Circle -->
+  <circle cx="32" cy="32" r="22" stroke="#d4af37" stroke-width="4"/>
+  
+  <!-- Inner Star Motif (Simplified wheel/gear feel from image) -->
+  <circle cx="32" cy="32" r="14" stroke="#d4af37" stroke-width="1.5" stroke-dasharray="4 2"/>
+  
+  <!-- Center Star (Electric Blue) -->
+  <path d="M32 20L35.5 28.5H44.5L37.5 34.5L40 43L32 38L24 43L26.5 34.5L19.5 28.5H28.5L32 20Z" fill="#00b4ff"/>
+</svg>

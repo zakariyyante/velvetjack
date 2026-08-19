@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   title: "VelvetJackPT - Os Melhores Casinos Online em Portugal 2026",
   description: "Encontre os melhores sites de casino online em Portugal. Análises de especialistas, bónus exclusivos e levantamentos rápidos.",
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 };
 
