@@ -9,7 +9,7 @@ export default function CookiesPage() {
         <h1 className="text-4xl font-bold mb-8 text-white">Política de Cookies</h1>
         <div className="prose prose-invert max-w-none text-gray-300 space-y-6">
           <p>
-            O velvetjackpt.org utiliza cookies para melhorar a sua experiência de navegação e fornecer um serviço personalizado.
+            O velvetjackpt.net utiliza cookies para melhorar a sua experiência de navegação e fornecer um serviço personalizado.
           </p>
           
           <h2 className="text-2xl font-bold text-white mt-8">O que são Cookies?</h2>

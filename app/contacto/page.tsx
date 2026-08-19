@@ -18,7 +18,7 @@ export default function ContactoPage() {
               Pode contactar-nos através do nosso e-mail oficial para questões gerais ou parcerias:
             </p>
             <div className="text-xl font-bold text-primary">
-              info@velvetjackpt.org
+              info@velvetjackpt.net
             </div>
           </div>
 

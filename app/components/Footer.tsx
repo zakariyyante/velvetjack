@@ -36,7 +36,7 @@ export default function Footer() {
         {/* Legal Disclaimer Text */}
         <div className="space-y-4 mb-12">
           <p className="text-gray-500 text-[13px] leading-relaxed">
-            GERMANO ALVES SOARES é o editor e operador do site <Link href="https://velvetjackpt.org/" className="underline hover:text-white transition-colors">https://velvetjackpt.org/</Link>. Ele opera este site em ligação com <Link href="https://velvetjackpt.org/" className="underline hover:text-white transition-colors">https://velvetjackpt.org/</Link>, incluindo relações comerciais e de afiliados refletidas no conteúdo e ofertas neste domínio.
+            GERMANO ALVES SOARES é o editor e operador do site <Link href="https://velvetjackpt.net/" className="underline hover:text-white transition-colors">https://velvetjackpt.net/</Link>. Ele opera este site em ligação com <Link href="https://velvetjackpt.net/" className="underline hover:text-white transition-colors">https://velvetjackpt.net/</Link>, incluindo relações comerciais e de afiliados refletidas no conteúdo e ofertas neste domínio.
           </p>
           <p className="text-gray-500 text-[13px] leading-relaxed">
             <strong className="text-gray-400">Divulgação de Afiliados:</strong> Este website é uma plataforma de comparação de afiliados independente. Poderemos receber uma compensação dos operadores listados quando os utilizadores utilizam os nossos links. Isto não compromete os nossos rigorosos padrões de avaliação. Os utilizadores devem verificar os termos do operador antes do registo.
@@ -61,7 +61,7 @@ export default function Footer() {
           </nav>
           
           <p className="text-gray-500 text-sm">
-            © {year} VelvetJackPT.com — Todos os direitos reservados. Site comparador independente. Não é um operador de jogos de azar.
+            © {year} VelvetJackPT.net — Todos os direitos reservados. Site comparador independente. Não é um operador de jogos de azar.
           </p>
         </div>
       </div>

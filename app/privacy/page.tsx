@@ -10,7 +10,7 @@ export default function PrivacyPage() {
         <h1 className="text-4xl font-bold mb-8">Política de Privacidade</h1>
         <div className="prose prose-invert max-w-none text-gray-300 space-y-6">
           <p>
-            Esta Política de Privacidade descreve como o velvetjackpt.org (&quot;nós&quot;, &quot;nosso&quot; ou &quot;site&quot;) recolhe, utiliza e protege as suas informações quando utiliza o nosso serviço.
+            Esta Política de Privacidade descreve como o velvetjackpt.net (&quot;nós&quot;, &quot;nosso&quot; ou &quot;site&quot;) recolhe, utiliza e protege as suas informações quando utiliza o nosso serviço.
           </p>
           
           <h2 className="text-2xl font-bold text-white mt-8">1. Recolha de Informação</h2>

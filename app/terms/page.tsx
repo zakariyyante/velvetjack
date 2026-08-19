@@ -10,7 +10,7 @@ export default function TermsPage() {
         <h1 className="text-4xl font-bold mb-8">Termos de Serviço</h1>
         <div className="prose prose-invert max-w-none text-gray-300 space-y-6">
           <p>
-            Ao aceder ao velvetjackpt.org, o utilizador concorda em cumprir estes termos de serviço e todas as leis e regulamentos aplicáveis em Portugal.
+            Ao aceder ao velvetjackpt.net, o utilizador concorda em cumprir estes termos de serviço e todas as leis e regulamentos aplicáveis em Portugal.
           </p>
           
           <h2 className="text-2xl font-bold text-white mt-8">1. Uso de Conteúdo</h2>
@@ -25,7 +25,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-white mt-8">3. Isenção de Responsabilidade</h2>
           <p>
-            O velvetjackpt.org não é um operador de jogo. Não aceitamos apostas nem processamos transações financeiras. Não somos responsáveis por quaisquer perdas incorridas em sites de terceiros aos quais o utilizador acede através do nosso site.
+            O velvetjackpt.net não é um operador de jogo. Não aceitamos apostas nem processamos transações financeiras. Não somos responsáveis por quaisquer perdas incorridas em sites de terceiros aos quais o utilizador acede através do nosso site.
           </p>
 
           <h2 className="text-2xl font-bold text-white mt-8">4. Propriedade Intelectual</h2>
